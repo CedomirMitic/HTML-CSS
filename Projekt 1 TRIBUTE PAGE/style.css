@@ -1,0 +1,116 @@
+*{
+  box-sizing:border-box;
+}
+  html,body{
+      height:100%;
+  }
+  body{
+    font-family: "Roboto",Arial,cursive;
+    margin:0;
+    background-image: url("images/ocean.jpg");
+  }
+  .container{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .header{
+    display:flex;
+    width:100%;
+    max-height:500px;
+    position: relative;
+      text-align: center;
+  }
+  #jack,#pearl{
+    width:100%;
+    max-height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .top-left{
+    position: absolute;
+    font-size: 45px;
+    color:white;
+    top: 8px;
+    left: 30px;
+    text-shadow: -2px -1px 0 #000080;
+  }
+  .About,.pearltd{
+    background-color: 	#EDEADE;
+  }
+  .articleheader{
+    font-weight: 900;
+    margin:0;
+    padding:25px;
+    text-align: center;
+    font-size: 30px;
+  }
+  article{
+    font-weight: 300;
+    font-style:italic;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    word-spacing: 5px;
+
+  }
+  table,td{
+    margin:0;
+    padding:0;
+  }
+section{
+  padding-bottom: 30px;
+}
+
+.pearlhead{
+padding-left: 8px;
+padding-top:25px;
+padding-bottom:25px;
+margin:0;
+}
+#card{
+background-position: center;
+background-size: cover;
+height:300px;
+width:100%;
+}
+.subordinatesh{
+background-color: 	#EDEADE;
+text-align: center;
+padding:25px;
+}
+.Cards{
+  display:flex;
+background-color: #EDEADE;
+}
+.gibbs,.turner,.swann,.monkey{
+flex-basis:25%;
+}
+@media(max-width:1200px){
+.Cards{
+display:block;
+}
+}
+video{
+width:100%;
+height:auto;
+}
+audio{
+display:hidden;
+}
+footer{
+background:		#28282B;
+text-align: center;
+}
+footer a{
+text-decoration: none;
+color:white;
+}
+footer a:hover{
+text-shadow: -1px -1px 0  gold;
+}
+footer p{
+color:white;
+font-size:25px;
+}

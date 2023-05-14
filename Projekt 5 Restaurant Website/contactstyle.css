@@ -1,0 +1,30 @@
+.content{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.contenth1{
+  margin:0;
+  text-align: center;
+}
+form{
+  display:inline-block;
+  text-align: center;
+}
+form *{
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+form #lb{
+  font-size: 15px;
+}
+form #name,#email,#number,#select{
+  width:60%;
+  text-align: center;
+}
+form textarea{
+  width:60%;
+  height:150px;
+  resize:vertical;
+}

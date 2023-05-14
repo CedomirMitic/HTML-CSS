@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Alkatra' , Arial, sans-serif;
+}
+body,html{
+  height:100%;
+}
+body{
+  margin:0;
+}
+nav{
+  position:fixed;
+  height:75px;
+  background: green;
+  width:100%;
+}
+.navitems{
+  display:flex;
+}
+.nav2 , .nav1{
+  text-decoration: none;
+  display:flex;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 15px;;
+  color:black;
+  justify-content: center;
+  align-items: center;
+}
+.navitems .nav2{
+  flex-basis:25%;
+  font-size: 35px;
+  font-weight: 700;
+}
+.navitems .nav1{
+  flex-basis:15%;
+  border-right: 1px solid black;
+}
+#home{
+padding-bottom: 75px;
+}
+.carousel {
+  display:flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  height:150px;
+}
+.carousel h1{
+  margin:25px 0px;
+  color:white;
+  font-size: 35px;
+
+}
+.about{
+  display:flex;
+
+}
+.abouttext,.aboutimage{
+  flex-basis:50%;
+}
+.aboutimage{
+  background-image: url('images/cedomir.png');
+  background-size: 100% 100%;
+}
+.abouttext{
+  color:white;
+  background-color: black;
+}
+.abouttext h1{
+font-size:35px;
+}
+#projects{
+  background: linear-gradient(0deg, rgba(192,198,198,0.8547794117647058) 100%, rgba(130,128,128,0) 100%);
+}
+.header{
+  text-align:center;
+}
+.header h1{
+  font-size: 35px;
+  margin:0;
+  padding:15px;
+}
+.projecttype{
+  display:flex;
+  flex-wrap:wrap;
+}
+.projecttype div{
+  flex-basis:25%;
+  text-align:center;
+  padding:15px;
+}
+#achievements{
+  background:black;
+  color:white;
+}
+#contact{
+  background: linear-gradient(0deg, rgba(192,198,198,0.8547794117647058) 100%, rgba(130,128,128,0) 100%);
+}
+.contact{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.form form{
+  text-align: center;
+  background-color: black;
+  color:white;
+  margin-bottom: 25px;
+}
+.form label{
+  font-size: 25px;
+}
+.form input{
+  width:60%;
+  font-size: 20px;
+}
+.form textarea{
+  width:60%;
+  height:150px;
+  resize:none;
+  font-size: 20px;
+}
+.form button{
+  width:25%;
+  font-size: 25px;
+  padding:0;
+  margin:0;
+  margin-bottom: 15px;
+}
+.footer1{
+  background-color: green;
+}
+.footer1 a{
+  text-decoration: none;
+  margin-left:10%;
+  color:black;
+  font-size: 25px;
+}
+.footer2{
+  background-color: black;
+  color:green;
+}
+.footer2 h1{
+  margin:0;
+  padding:25px;
+  padding-bottom: 0;
+}
